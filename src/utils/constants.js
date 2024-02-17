@@ -17,8 +17,8 @@ export const getCategories = async () => {
 
 export const getProducts = async (categoryId) => {
   const url = `https://api.escuelajs.co/api/v1/categories/${categoryId}/products`;
-  // Добавлено задержка в 200 миллисекунд
-  await new Promise((resolve) => setTimeout(resolve, 200));
+  
+  await new Promise((resolve) => setTimeout(resolve));
   return fetchData(url);
 };
 
