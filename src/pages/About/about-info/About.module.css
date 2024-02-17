@@ -10,24 +10,24 @@
 }
 
 .text {
-  text-align: center; /* Выровнял текст по центру */
-  padding: 0 20px; /* Добавил отступы справа и слева */
+  text-align: center; 
+  padding: 0 20px; 
 }
 
 h1 {
-  color: #6a0dad; /* Фиолетовый цвет для заголовка */
-  margin-bottom: 10px; /* Добавил небольшой отступ снизу */
+  color: #6a0dad; 
+  margin-bottom: 10px;
 }
 
 p {
-  color: #4b0082; /* Фиолетовый цвет для текста */
+  color: #4b0082; 
   line-height: 1.6;
-  margin-bottom: 20px; /* Добавил отступ снизу */
+  margin-bottom: 20px;
 }
 
 .about img {
   width: 400px;
-  margin-top: 20px; /* Добавил отступ сверху */
-  border-radius: 5px; /* Скругление углов */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень */
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
