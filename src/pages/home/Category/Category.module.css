@@ -1,0 +1,55 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  margin-bottom: 55px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #d3d3d3;
+  text-align: center;
+}
+
+.categoryItem p {
+  transition: color 0.3s ease;
+}
+
+.categoryItem:hover p {
+  color: rgb(166, 0, 149);
+
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.categoryItem img {
+  max-width: 210px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.categoryItem p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #d3d3d3;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+

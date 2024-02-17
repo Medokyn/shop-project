@@ -1,0 +1,23 @@
+ .carousel {
+ 
+    align-items: center;
+  
+    max-width: 900px;
+    margin: 0 auto;
+    
+   
+    margin-top: 20px;
+}
+  
+  
+  .imageWrapper {
+    display: flex; 
+    justify-content: center; 
+  }
+  
+  .image {
+    width: 1220px; 
+    height: auto; 
+    display: block; 
+    border-radius: 10px;
+  }

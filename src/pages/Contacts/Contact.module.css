@@ -1,0 +1,36 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 1220px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #44444a00; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.contact-page {
+    background-color: #2c1845; 
+    color: #ffffff; 
+    padding: 20px;
+  }
+  
+  .contact-info {
+    border: 2px solid #ffffff; 
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .contact-info h2 {
+    color: #ffd700; 
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
