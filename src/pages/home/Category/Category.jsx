@@ -38,7 +38,7 @@ const Category = () => {
       <h2>Catalog</h2>
       <div className={styles.cards}>
         {loading ? (
-          // Если данные загружаются, отображается заглушка для категорий
+          // заглушка для категорий
           [...new Array(5)].map((_, index) => (
             <div key={index} className={styles.categoryItem}>
               <p>Loading...</p>
