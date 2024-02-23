@@ -1,0 +1,68 @@
+.catalogMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1220px;
+  margin: 30px auto; /* Изменил отступ сверху и снизу */
+  padding: 20px;
+  background-color: rgba(34, 36, 35, 0.281);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.categories {
+  margin-top: 20px; /* Уменьшил отступ сверху */
+}
+
+.categories button {
+  background-color: transparent;
+  border: none;
+}
+
+.categories li {
+  list-style: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-right: 10px; /* Увеличил расстояние между категориями */
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Изменено на space-between */
+  gap: 20px; /* Уменьшено расстояние между товарами */
+  max-width: 1100px;
+  width: 100%;
+  padding: 20px;
+  background-color: #d3d3d32d;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.products > div {
+  width: calc(25% - 10px); /* Изменил ширину элемента */
+  margin-bottom: 20px;
+}
+
+.products h3 {
+  color: azure;
+  margin-bottom: 10px; /* Увеличил отступ между названием и ценой */
+}
+
+.products p {
+  color: azure;
+  margin-bottom: 20px; /* Увеличил отступ после цены */
+}
+
+.products img {
+  width: 100%; /* Сделал изображения товаров растягивающимися по ширине */
+  border-radius: 8px; /* Добавил скругление углов изображений */
+}
+
+.search{
+  margin-left: 870px;
+}
