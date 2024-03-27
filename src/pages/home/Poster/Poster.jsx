@@ -13,8 +13,8 @@ const Poster = () => {
 
   useEffect(() => {
     flickityRef.current = new Flickity('.carousel', {
-      autoPlay: true, // Добавляем опцию автоматического воспроизведения
-      wrapAround: true // Если нужно зациклить прокрутку, иначе она остановится на последнем слайде
+      autoPlay: true, 
+      wrapAround: true 
     });
 
     return () => {
