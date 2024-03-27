@@ -1,4 +1,5 @@
 .content{
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,72 +12,65 @@
   padding: 20px; 
   background-color: rgba(34, 36, 35, 0.837);
 
-  border-radius: 10px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+ 
 }
+
 /* Contact.module.css */
 
 .content {
-padding: 50px 0;
+  padding: 50px 0;
 }
 
 .container {
-max-width: 1200px;
-margin: 0 auto;
-padding: 0 15px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .row {
-display: flex;
-flex-wrap: wrap;
-margin-right: -15px;
-margin-left: -15px;
-}
-
-.row h3 {
-font-size: 24px;
-margin-bottom: 20px;
-}
-
-.row p {
-font-size: 16px;
-line-height: 1.6;
-margin-bottom: 30px;
-}
-
-.fullwidth_wrapper {
-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .colmd {
-flex: 0 0 50%;
-max-width: 50%;
-padding-right: 15px;
-padding-left: 15px;
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .form_group {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 input[type="text"],
 textarea {
-width: 100%;
-padding: 10px;
-border: 1px solid #ccc;
-border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 150px;
 }
 
 button {
-background-color: #007bff;
-color: #fff;
-padding: 10px 20px;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-transition: background-color 0.3s ease;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-background-color: #0056b3;
+  background-color: #0056b3;
+}
+
+.angle_right {
+  font-size: 16px;
 }
